@@ -1,0 +1,11 @@
+---
+application:
+  name: "klm"
+  project: "klm"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-klm"
+  routes:
+  - application_name: "klm"
+    paths:
+    - "/*"
